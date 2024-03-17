@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "devices",
+  "info": {
+    "singularName": "device",
+    "pluralName": "devices",
+    "displayName": "device",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "code": {
+      "type": "biginteger"
+    },
+    "statusUpdate": {
+      "type": "datetime"
+    },
+    "status": {
+      "type": "integer"
+    },
+    "tokenUsed": {
+      "type": "biginteger"
+    },
+    "bannedWords": {
+      "type": "richtext"
+    },
+    "knowledge": {
+      "type": "richtext"
+    },
+    "city": {
+      "type": "string"
+    }
+  }
+}
